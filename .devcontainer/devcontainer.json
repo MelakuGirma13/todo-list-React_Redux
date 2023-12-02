@@ -1,0 +1,16 @@
+{
+    "name": "React",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "zsh": {
+                "path": "/bin/zsh"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "editor.formatOnSave": true
+    },
+    "extensions": ["esbenp.prettier-vscode"]
+}
